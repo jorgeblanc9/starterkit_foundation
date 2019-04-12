@@ -132,6 +132,12 @@
                 'source'       => 'https://downloads.wordpress.org/plugin/widget-importer-exporter.1.5.5.zip', 
                 'required'     => false, 
                 'external_url' => 'https://wordpress.org/plugins/widget-importer-exporter'
+            ), array(
+                'name'         => 'Code Snippets',
+                'slug'         => 'code_snippets', 
+                'source'       => 'https://downloads.wordpress.org/plugin/code-snippets.zip', 
+                'required'     => false, 
+                'external_url' => 'https://es.wordpress.org/plugins/code-snippets'
             )
     
            
