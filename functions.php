@@ -357,18 +357,18 @@ function wprig_scripts() {
 
 	// Enqueue skip-link-focus script.
 	wp_enqueue_script( 'wprig-skip-link-focus-fix', get_theme_file_uri( '/js/skip-link-focus-fix.js' ), array(), '20180514', false );
-	wp_script_add_data( 'wprig-skip-link-focus-fix', 'defer', true );
+	wp_script_add_data( 'wprig-skip-link-focus-fix', 'async', true );
 
 	wp_enqueue_script("jquery");
 
 	wp_enqueue_script( 'wprig-what', get_theme_file_uri( '/js/libs/what-input.min.js' ), array(), '5.1.4', true );
-	wp_script_add_data( 'wprig-what', 'defer', true );
+	wp_script_add_data( 'wprig-what', 'async', true );
 
 	wp_enqueue_script( 'wprig-foundation-js', get_theme_file_uri( '/js/libs/foundation.min.js' ), array(), '6.5.1', true );
-	wp_script_add_data( 'wprig-foundation-js', 'defer', true );
+	wp_script_add_data( 'wprig-foundation-js', 'async', true );
 
 	wp_enqueue_script( 'wprig-app-js', get_theme_file_uri( '/js/app.js' ), array(), '1.0', true );
-	wp_script_add_data( 'wprig-app-js', 'defer', true );
+	wp_script_add_data( 'wprig-app-js', 'async', true );
 
 
 	// Enqueue comment script on singular post/page views only.

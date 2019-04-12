@@ -118,6 +118,20 @@
                 'source'       => 'https://downloads.wordpress.org/plugin/woocommerce.3.5.7.zip', 
                 'required'     => false, 
                 'external_url' => 'https://es.wordpress.org/plugins/woocommerce',
+            ),
+            array(
+                'name'         => 'Smart Slider 3',
+                'slug'         => 'smart-slider', 
+                'source'       => 'https://downloads.wordpress.org/plugin/smart-slider-3.3.3.18.zip', 
+                'required'     => false, 
+                'external_url' => 'https://wordpress.org/plugins/smart-slider-3',
+            ),
+            array(
+                'name'         => 'Widget Importer & Exporter',
+                'slug'         => 'widget-importer', 
+                'source'       => 'https://downloads.wordpress.org/plugin/widget-importer-exporter.1.5.5.zip', 
+                'required'     => false, 
+                'external_url' => 'https://wordpress.org/plugins/widget-importer-exporter'
             )
     
            

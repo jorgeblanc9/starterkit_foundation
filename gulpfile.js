@@ -52,7 +52,6 @@ function serve() {
   });
 
   gulp.watch("scss/**/*.scss", sass);
-  gulp.watch("", imagemin);
 }
 
 gulp.task('sass', sass);
