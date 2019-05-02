@@ -138,6 +138,12 @@
                 'source'       => 'https://downloads.wordpress.org/plugin/code-snippets.zip', 
                 'required'     => false, 
                 'external_url' => 'https://es.wordpress.org/plugins/code-snippets'
+            ), array(
+                'name'         => 'Child Theme Configurator',
+                'slug'         => 'child_theme', 
+                'source'       => 'https://downloads.wordpress.org/plugin/child-theme-configurator.2.4.4.zip', 
+                'required'     => false, 
+                'external_url' => 'https://es.wordpress.org/plugins/child-theme-configurator'
             )
     
            
